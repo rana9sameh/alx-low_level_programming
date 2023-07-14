@@ -1,15 +1,17 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
  *
- * Description: Using putchar function to print a statement
+ * Description: Using write function and an array to print a statement
  *
- * Return: Always 0 (Success)
+ * Return: 1 (not success)
 */
 
 int main(void)
 {
-	putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
-	return (0);
+	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+
+	write(1, quote, 59);
+	return (1);
 }
