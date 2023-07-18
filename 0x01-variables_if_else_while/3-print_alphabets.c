@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char lowr = 97;
+	char lower = 97;
 	char upper = 65;
 
 	while (lower < 123)
