@@ -15,7 +15,7 @@ int main(void)
 	while (lower < 123)
 	{
 		if (lower == 101 || lower == 113)
-			break;
+			continue;
 		putchar(lower);
 		lower++;
 	}
