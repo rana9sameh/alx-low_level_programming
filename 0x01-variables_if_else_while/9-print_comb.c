@@ -14,7 +14,7 @@ int main(void)
 
 	while (n < 9)
 	{
-		putchar('0' + n + '44');
+		putchar('0' + n + 44);
 		putchar(32);
 		n++;
 	}
