@@ -12,8 +12,12 @@ int main(void)
 {
 	char lower = 97;
 
-	while (lower < 123 && lower != 101 && lower != 113)
+	while (lower < 123)
 	{
+		if (lower == 101)
+			lower++;
+		if (lower == 113)
+			lower++;
 		putchar(lower);
 		lower++;
 	}
