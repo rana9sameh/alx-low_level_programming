@@ -12,13 +12,16 @@ int main(void)
 {
 	int n = 0;
 
-	while (n < 9)
+	while (n < 10)
 	{
-		putchar('0' + n + 44);
+		putchar('0' + n);
+		if (n != 9)
+		{
+		putchar(44);
 		putchar(32);
+		}
 		n++;
 	}
-	putchar(57);
 	putchar('\n');
 	return (0);
 }
