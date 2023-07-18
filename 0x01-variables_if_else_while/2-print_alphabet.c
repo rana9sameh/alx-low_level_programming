@@ -15,6 +15,7 @@ int main(void)
 	while (alpha < 123)
 	{
 		putchar(alpha);
+		putchar(\n);
 		alpha++;
 	}
 	return (0);
