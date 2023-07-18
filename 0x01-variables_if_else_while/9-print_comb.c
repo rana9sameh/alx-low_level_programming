@@ -12,13 +12,14 @@ int main(void)
 {
 	int n = 0;
 
-	while (n < 10)
+	while (n < 9)
 	{
 		putchar('0' + n);
 		putchar(44);
 		putchar(32);
 		n++;
 	}
+	putchar(57);
 	putchar('\n');
 	return (0);
 }
