@@ -10,8 +10,13 @@
 
 int main(void)
 {
-	for (char alpha = 97; alpha < 123; alpha++)
+	char alpha = 97;
+
+	while (alpha < 123)
+	{
 		putchar(alpha);
+		alpha++;
+	}
 	return (0);
 }
 
