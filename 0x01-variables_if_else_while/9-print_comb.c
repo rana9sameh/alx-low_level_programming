@@ -14,11 +14,11 @@ int main(void)
 
 	while (n < 9)
 	{
-		putchar('0' + n);
-		putchar(44);
+		putchar('0' + n + '44');
 		putchar(32);
 		n++;
 	}
-	putchar(57 && '\n');
+	putchar(57);
+	putchar('\n');
 	return (0);
 }
