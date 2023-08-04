@@ -1,1 +1,1 @@
-debugging file
+pointers arrays strings
